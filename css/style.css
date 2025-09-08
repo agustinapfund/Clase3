@@ -1,0 +1,185 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: roboto, sans-serif;
+}
+header div.arriba {
+  background-color: #222222;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  height: 20px;
+  align-items: center;
+}
+header div.arriba p {
+  color: #f3f3f3;
+  font-size: 10px;
+}
+header div ul {
+  display: flex;
+  font-size: 10px;
+  gap: 25px;
+  align-items: center;
+  padding-right: 15px;
+}
+header div ul li {
+  list-style-type: none;
+}
+header div ul li a {
+  display: flex;
+  font-size: 14px;
+  color: #f3f3f3;
+  text-decoration: none;
+}
+header div ul i {
+  align-content: center;
+  display: flex;
+  color: white;
+  font-size: 10px;
+}
+/**Header navegador y logo*/
+header div.navegador {
+  background-color: #f0a83e;
+  display: flex;
+  height: 62px;
+  justify-content: space-between;
+  align-items: center;
+}
+header div.navegador img {
+  display: flex;
+  height: 23px;
+  padding-left: 58px;
+}
+/**seccion imagen del comedero y titulo*/
+main section.seccion-comedero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 25px;
+  background-image: url(../img/Slide.png);
+  width: 100vw;
+  height: 58vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main section.seccion-comedero div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+main section.seccion-comedero div h1 {
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  padding: 5px;
+  margin-right: 10px;
+}
+main section.seccion-comedero div a {
+  background-color: #f0a83e;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+}
+main section.productos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main section.productos img.img-patita {
+  height: 71px;
+  width: 67px;
+}
+main section.productos h2 {
+  font-size: 40px;
+}
+main section.productos p {
+  color: #666;
+  font-size: 15px;
+}
+main section.productos div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+main section.productos div article {
+  background-color: #fbfaf6;
+  text-align: center;
+  height: 312px;
+  width: 265px;
+}
+main section.productos div article h4 {
+  color: #3c2313;
+  font-size: 15px;
+}
+main section.productos div article p {
+  color: #f0a83e;
+  font-size: 15px;
+}
+/**footer*/
+footer div.suscribirse {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  background-color: #f0a83e;
+}
+footer div.suscribirse h3 {
+  display: flex;
+  gap: 5px;
+  color: white;
+  font-size: 20px;
+  font-weight: normal;
+}
+footer section.logo {
+  background-color: #3c2313;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+footer section.logo .contacto {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+footer section.logo div.contacto h3 {
+  color: white;
+  font-size: 20px;
+}
+footer section.logo div.contacto i {
+  background-color: #8a8787;
+  border: 3px solid #786960;
+  border-radius: 100%;
+  padding: 10px 20px 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer section.logo div.contacto p.contacto-detalle {
+  color: #8a8787;
+  font-size: 10px;
+}
+footer section.logo img {
+  height: 23px;
+  width: 166px;
+  align-items: center;
+}
+footer div.final-footer p {
+  background-color: #222222;
+  color: white;
+  text-align: center;
+  font-size: 10px;
+  padding: 5px;
+}
+@media (min-width: 720px) {
+  body {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
