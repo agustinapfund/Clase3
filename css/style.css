@@ -17,6 +17,7 @@ header div.arriba {
 header div.arriba p {
   color: #f3f3f3;
   font-size: 10px;
+  padding-left: 60px;
 }
 header div ul {
   display: flex;
@@ -62,9 +63,10 @@ main section.seccion-comedero {
   gap: 25px;
   background-image: url(../img/Slide.png);
   width: 100vw;
-  height: 58vh;
+  height: 65vh;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 main section.seccion-comedero div {
   display: flex;
@@ -112,6 +114,8 @@ main section.productos div article {
   text-align: center;
   height: 312px;
   width: 265px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 main section.productos div article h4 {
   color: #3c2313;
