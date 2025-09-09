@@ -142,7 +142,7 @@ footer div.suscribirse h3 {
 footer section.logo {
   background-color: #3c2313;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   padding: 20px;
 }
