@@ -11,7 +11,7 @@ header div.arriba {
   display: flex;
   justify-content: space-between;
   gap: 10px;
-  height: 20px;
+  padding: 5px;
   align-items: center;
 }
 header div.arriba p {
@@ -45,7 +45,7 @@ header div ul i {
 header div.navegador {
   background-color: #f0a83e;
   display: flex;
-  height: 62px;
+  padding: 20px;
   justify-content: space-between;
   align-items: center;
 }
@@ -78,7 +78,7 @@ main section.seccion-comedero div h1 {
   background-color: #f3f3f3;
   border-radius: 10px;
   padding: 5px;
-  margin-right: 10px;
+  margin-right: 40px;
 }
 main section.seccion-comedero div a {
   background-color: #f0a83e;
@@ -98,6 +98,7 @@ main section.productos img.img-patita {
   width: 67px;
 }
 main section.productos h2 {
+  text-align: center;
   font-size: 40px;
 }
 main section.productos p {
@@ -142,7 +143,7 @@ footer div.suscribirse h3 {
 footer section.logo {
   background-color: #3c2313;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   padding: 20px;
 }
@@ -181,9 +182,43 @@ footer div.final-footer p {
   font-size: 10px;
   padding: 5px;
 }
-@media (min-width: 720px) {
-  body {
+@media (max-width: 600px) {
+  header div ul.lista-navegador {
     flex-direction: column;
     flex-wrap: wrap;
+    padding: 0px;
+    gap: 10px;
+  }
+  main section.productos div {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+  }
+  main section.productos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 400px) {
+  header div.navegador {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+  }
+  header div.navegador img {
+    padding-left: 0px;
+  }
+  header div ul.lista-navegador {
+    gap: 0px;
+  }
+  footer section.logo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
   }
 }
